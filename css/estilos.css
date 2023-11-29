@@ -108,7 +108,7 @@ img{
 .hm-header{
     position: relative;
     height: 64px;
-    background: #fff;
+    background: #FFB266;
     line-height: 64px;
     -webkit-transition: all .6s ease-in-out;
     -moz-transition: all .6s ease-in-out;
@@ -214,8 +214,35 @@ img{
 
 .hm-banner .img-banner{
     height: 100%;
+    position: relative;
 }
 
+.hm-banner {
+    position: relative;
+    text-align: center;
+}
+
+.hm-banner h1 {
+    font-size: 36px;
+    color: #0c0c0c; /* Puedes ajustar el color según tu paleta de colores */
+    margin-bottom: 20px;
+}
+
+.hm-banner p {
+    font-size: 18px;
+    color: #111010;
+    margin-bottom: 30px;
+}
+
+
+.hm-banner a {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    z-index: 20;
+}
 
 /*=================================
     ESTILOS: categorias home
