@@ -666,11 +666,24 @@ footer .foo-row .foo-col ul li a:hover{
     }
 }
 
+@media screen and (max-width: 800px) {
+    .hm-banner h1 {
+        font-size: 28px;
+        margin-bottom: 15px;
+    }
+
+    .hm-banner p {
+        font-size: 16px;
+        margin-bottom: 20px;
+    }
+}
+
 @media screen and (max-width: 400px){
     .hm-banner{
         height: 320px;
         min-height: 320px;
     }
+    
 
     .hm-grid-category{
         grid-template-columns: repeat(2,calc(50% - 1rem*1/2));
