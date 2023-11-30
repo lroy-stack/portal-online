@@ -55,6 +55,11 @@ img{
     margin: 0 auto;
 }
 
+.hm-logo img {
+    width: 100px; 
+    height: auto;
+}
+
 @media screen and (min-width: 1px){
     .container{
         width: auto;
